@@ -2067,8 +2067,9 @@ const RIA_CONFIG = {
     if (result && result.ok) {
       // Open WhatsApp with the submitted details
       const waText = `New Early Access Request!\nBusiness: ${payload.businessName}\nGST: ${payload.gstNumber}\nMobile: ${payload.mobile}\nContact: ${payload.contactPerson}\nEmail: ${payload.email || 'N/A'}`;
-      const waUrl = `https://wa.me/919390553060?text=${encodeURIComponent(waText)}`;
+      const waUrl = `https://wa.me/918106668552?text=${encodeURIComponent(waText)}`;
       window.open(waUrl, "_blank");
+
 
       form.style.display = "none";
       successPane.classList.add("show");
